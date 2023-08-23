@@ -1,0 +1,201 @@
+
+body,html
+{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  background-color: #f6efef;
+}
+
+.navbar
+{
+ background-color: #efefefef;
+ padding: 22px 20px;
+  position: fixed; 
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-item,.navbar-nav
+{
+    display: inline;
+}
+.nav-link,.navbar-brand
+{
+    text-decoration: none;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+.navbar-brand
+{
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-left: 45px;
+
+}
+.navbar-nav
+{
+    margin-left: 177px;
+}
+.navbar-brand span
+{
+color: orange;
+font-size: 28px;
+}
+.nav-link
+{
+    margin-left: 40px;
+
+}
+.nav-link:hover
+{
+    color: limegreen;
+    transition: color .5s;
+}
+.banner
+{
+    height: 600px;
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1673323734854-8a139876973f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDExfFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+background-repeat: no-repeat;
+background-color: center center;
+background-size: 100% 100%;
+margin-top: 80px;
+
+} 
+.banner-card
+{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    width: 45%;
+    border-top: 5px solid  rgb(3, 179, 3);
+    margin: 280px auto;
+    padding: 20px;
+    position: relative;
+    top: 250px;
+}
+ .banner-btn
+{
+    background-color: transparent;
+    
+    color: white;
+    border: 2px solid rgb(3, 179, 3);
+    padding: 13px 35px;
+    border-radius: 10px;
+    margin-left: 40%;
+}
+.banner-btn:hover
+{
+    color: limegreen;
+    transition: color .5s;
+   
+} 
+
+
+.navbar
+{
+ background-color: #efefefef;
+ padding: 22px 20px;
+ position: fixed; 
+ top: 0px;
+ width: 100%;
+ z-index: 1;
+}
+
+.nav-item,.navbar-nav
+{
+    display: inline;
+}
+.nav-link,.navbar-brand
+{
+    text-decoration: none;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+.navbar-brand
+{
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-left: 45px;
+
+}
+.navbar-nav
+{
+    margin-left: 177px;
+}
+.navbar-brand span
+{
+color: orange;
+font-size: 28px;
+}
+.nav-link
+{
+    margin-left: 40px;
+
+}
+.nav-link:hover
+{
+    color: limegreen;
+    transition: color .5s;
+}
+
+.login{
+    text-align: justify;
+}
+
+.lorem
+{
+    margin: 80px 50px 50px 50px;
+     background-color: rgba(239, 229, 229, 0.51);
+    padding: 50px;  
+} 
+.lorem-card{
+    width: 348px;
+background-color: rgba(239, 229, 229, 0.51);
+padding: 120px 20px;
+display: inline-block;
+
+margin: 20px;
+text-align: center;
+transition: background-color .8s,box-shadow .8s; 
+
+
+} 
+
+
+
+.lorem-card:hover
+{
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px black;
+
+}
+
+.lorem-content-margin
+{
+    margin-top: 30px; 
+}
+.gallary img
+{
+    width: 347px;
+    height: 300px;
+    margin-left: 20px;
+    opacity: 0.5;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px black;
+    margin-top: 20px;
+  transition: opacity .6s, transform 1s;
+}
+.gallary img:hover
+{
+    opacity: 1;
+    transform: scale(1.1) ;
+
+
+}
+
